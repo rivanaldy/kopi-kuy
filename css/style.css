@@ -461,14 +461,5 @@ footer .navigasi {
   nav{
     position: relative;
   }
-  div.test {
-    white-space: nowrap; 
-    width: 400px; 
-    overflow: hidden; 
-   
-  }
   
-  div.test:hover {
-    overflow: visible;
-  }
 }
