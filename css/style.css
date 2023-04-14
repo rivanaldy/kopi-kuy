@@ -458,4 +458,7 @@ footer .navigasi {
   .contact-us {
     margin-top: -62px;
   }
+  nav{
+    position: relative;
+  }
 }
