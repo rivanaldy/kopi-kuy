@@ -138,7 +138,7 @@
 
         var isi_html = "";
 
-        $.get(json2).then(function (data) {
+        $.get(json).then(function (data) {
           var kopi_pilihan = data[pilihan];
           kopi_pilihan.forEach((kopi) => {
             isi_html += `<div class="col-12 col-md-6 col-lg-3">
