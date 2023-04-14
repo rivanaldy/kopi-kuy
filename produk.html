@@ -137,6 +137,10 @@
 
       select_kopi.onchange = function () {
         var pilihan = this.value;
+        if (pilihan=="-") {
+          baris_produk.innerHTML=""
+          return false
+        }
 
         var isi_html = "";
 
